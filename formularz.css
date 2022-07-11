@@ -1,0 +1,50 @@
+.text
+{
+	float:left;
+	margin: 0 !important;
+	text-align:justify;
+	font-size:2.5vh;
+	padding: 3vh 10%;
+	width:30%;
+	height:53vh;
+}
+h2
+{
+	color:#0088FF;
+	font-size:4vh;
+	float:left;
+	width:34%;
+	padding:3vh 8%;
+	margin: 0;
+}
+input[type="text"],textarea
+{
+	font-size:3vh;
+	width:60%;
+	border: solid #0088FF 0.1vh;
+	border-radius:1vh;
+}
+textarea
+{
+	height:30vh;
+	max-height:38vh;
+	max-width:94%;
+}
+input[type="submit"],
+input[type="reset"]
+{
+	margin-left:2%;
+	font-size:2.5vh;
+	background-color:white;
+	color:#0088FF;
+	border: solid #0088FF 0.1vh;
+	border-radius:1vh;
+	height:3.5vh;
+	width:20%;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+	background-color:#0088FF;
+	color:white;
+}

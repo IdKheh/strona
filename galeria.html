@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<title>Art Online - Galeria</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="stylesheet" href="strona.css" type="text/css"/>
+<link rel="stylesheet" href="galeria.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+<nav>
+	<div id="logo"><a href="index.htm">Art Online</a></div>
+	<ol>
+		<li><a href="kontakt.html">Kontakt</a></li>
+		<li><a href="omnie.html">O mnie</a></li>
+		<li><a href="#">Galeria</a></li>
+		<li><a href="Oferta.html">Oferta</a></li>
+	</ol>		
+</nav>
+<div class="photo"></div>
+
+<div id="slider7" class="slides">
+<nav  class="dots">
+      <span class="dot">Strona internetowa</span>
+      <span class="dot">Lorem Ipsum</span>
+      <span class="dot">Strona internetowa</span>
+      <span class="dot">Lorem Ipsum</span>
+      <span class="dot">Strona internetowa</span>
+    </nav>
+    <div class="slide">
+      <figure>
+        <img class="hidden" src="logo2.jpg" alt="Pierwszy slide">
+      </figure>
+      <div class="slide-description">
+        <h3 class="slide-header">Ta strona czeka na ciebie</h3>
+        <p>Dzięki właściwości "load" slieder nie wczytuje wszystkich zdjęć podczas ładowania strony, co skutkuje brakiem blokowania innych zasobów i szybszym ukończeniem procesu renderowania strony.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <figure>
+        <img class="hidden" src="logo1.jpg" alt="Drugi slide">
+      </figure>
+      <div class="slide-description">
+        <h3 class="slide-header">Ta strona czeka na ciebie</h3>
+        <p>Dzięki zastosowaniu animacji CSS3 nawet początkujący programista stron internetowych, może bez trudu pisać własne animacje dla pojedynczych slidów.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <figure>
+        <img class="hidden" src="logo2.jpg" alt="Trzeci slide">
+      </figure>
+      <div class="slide-description">
+        <h3 class="slide-header">Ta strona czeka na ciebie</h3>
+        <p>Dzięki opcji "pause" po najechaniu kursorem slide zatrzyma się, co pozwoli podziwiać zdjęcia bądź przeczytać tekst w nim zawarty.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <figure>
+        <img class="hidden" src="logo.jpg" alt="Czwarty slide">
+      </figure>
+      <div class="slide-description">
+        <h3 class="slide-header">Ta strona czeka na ciebie</h3>
+        <p>Konstrukcja slidera umożliwia uruchomienie rotacji zdjęć w dowolnym momencie, po wykonaniu akcji czy po wczytaniu się strony.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <figure>
+        <img class="hidden" src="logo2.jpg" alt="Piąty slide">
+      </figure>
+      <div class="slide-description">
+        <h3 class="slide-header">Ta strona czeka na ciebie</h3>
+        <p>Jeżeli posiadasz już zainstalowaną bibliotekę jQuery, nie musisz pobierać i instalować biblioteki Comp. Slider został dostosowany do popularnej biblioteki jQuery.</p>
+      </div>
+    </div>
+</div>
+<div id="footer">
+<nav>
+	<ol>
+		<li><a href="kontakt.html">Kontakt</a></li>
+		<li><a href="omnie.html">O mnie</a></li>
+		<li><a href="#">Galeria</a></li>
+		<li><a href="Oferta.html">Oferta</a></li>
+	</ol>		
+</nav>
+Nasza firma<br><br>
+
+Lorem Ipsum<br>
+ul. XXX YYYY<br>
+lorem@ipsum.com.pl<br><br>
+
+<a href="index.html">Art Online</a> <span style="color:#0088FF">&copy;</span> Wszelkie prawa zastrzeżone</div>
+</div>
+<script type="text/javascript" src="comp.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+<script>
+(function () {
+  new Slider("#slider7 .slide").options({
+      nav: "#slider7 nav.dots span"
+  }).init();
+})();
+</script>
+</body>
+</html>

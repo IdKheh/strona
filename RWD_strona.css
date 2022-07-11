@@ -1,0 +1,167 @@
+#header
+{
+	font-size:18vh;
+	height:23vh;
+	width:100%;
+	border-bottom: solid 0.1vh #0088FF;
+	
+}
+#square_1
+{
+	font-size:5.5vh;
+	height:71.9vh;
+	width:25%;
+}
+#square_1>p
+{
+	padding-top:26vh;
+	padding-left:13.7%;
+	font-size:5.5vh;
+	color: #ffffff;
+}
+#square_1:hover>#square1
+{
+	width:100%;
+	height:71.9vh;
+}
+#square_1:hover>h4
+{
+	padding-top:12vh;
+	padding-left:13.7%;
+	font-size:4.3vh;
+	color: #0088FF;
+}
+#square_1:hover>#square1>.window
+{
+	width:100%;
+	height:71.9vh;
+}
+#square_1:hover>#square1>.window>p
+{
+	marign:0 !important;
+	padding-top:4.2vh;
+	padding-right:20%;
+	font-size:5.5vh;
+}
+h4
+{
+	padding-top:10.5vh;
+	padding-left:13.7%;
+	font-size:4.3vh;
+}
+#square_2
+{
+	font-size:5.5vh;
+	height:71.9vh;
+	width:25%;
+}
+#square_2>p
+{
+	padding-top:26vh;
+	padding-left:13.7%;
+	font-size:5.5vh;
+}
+
+#square_2:hover>#square2
+{
+	margin:0;
+	float:left;
+	width:100%;
+	height:71.9vh;
+}
+#square_2:hover>#square2>.window
+{
+	width:100%;
+	height:71.9vh;
+}
+#square_2:hover>#square2>.window>p
+{
+	marign:0 !important;
+	padding-right:13%;
+	padding-top: 4.3vh;
+	font-size:5.5vh;
+}
+
+#square_3
+{
+	font-size:5.5vh;
+	height:71.9vh;
+	width:25%;
+}
+#square_3>p
+{
+	padding-top:26vh;
+	padding-left:13.7%;
+	font-size:5.5vh;
+}
+#square_3:hover>#square3
+{
+	margin:0;
+	float:left;
+	width:100%;
+	height:71.9vh;
+}
+#square_3:hover>#square3>.window
+{
+	width:100%;
+	height:71.9vh;
+}
+#square_3:hover>#square3>.window>p
+{
+	padding-top: 4.3vh;
+	padding-left:0%;
+	font-size:5.5vh;
+}
+#square_4
+{
+	font-size:5.5vh;
+	height:71.9vh;
+	width:25%;
+}
+#square_4>p
+{
+	padding-top:26vh;
+	padding-left:13.7%;
+	font-size:5.5vh;
+}
+#square_4:hover>p
+{
+	padding-top:12vh;
+	padding-left:13.7%;
+	font-size:4.3vh;
+}
+#square_4:hover>#square4
+{
+	margin:0;
+	float:left;
+	width:100%;
+	height:71.9vh;
+}
+#square_4:hover>#square4>p
+{
+	padding-top:26vh;
+	padding-left:3.7%;
+	font-size:5.5vh;
+}
+a>button
+{
+	top:19.5em;
+	left:3em;
+	position:absolute;
+	z-index:3;
+	letter-spacing: 0.4vh;
+	width:75%;
+	height:7vh;
+	font-size:2.5vh;
+	padding: 1vh 0;
+	color:#0088FF;
+	border-radius:1vh;
+	border: solid #0088FF 0.1vh;
+}
+#footer
+{
+	padding:0.8vh 2%;
+	height:3.4vh;
+	width:96%;
+	font-size: 2.5vh;
+}
